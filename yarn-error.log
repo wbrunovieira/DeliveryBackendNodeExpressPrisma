@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/bin/node /Users/walterbrunopradovieira/.yarn/bin/yarn.js add typescript ts-node-dev @types/express @types/jsonwebtoken @types/bcript -D
+
+PATH: 
+  /Users/walterbrunopradovieira/.yarn/bin:/Users/walterbrunopradovieira/.config/yarn/global/node_modules/.bin:/Users/walterbrunopradovieira/.gem/bin:/usr/local/opt/ruby/bin:/Users/walterbrunopradovieira/.zinit/polaris/sbin:/Users/walterbrunopradovieira/.zinit/polaris/bin:/Users/walterbrunopradovieira/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/walterbrunopradovieira/Android/Sdk/tools:/Users/walterbrunopradovieira/Android/Sdk/platform-tools:/usr/local/bin:/usr/local/opt/node@14/bin:/Users/walterbrunopradovieira/Android/Sdk/emulator:/Users/walterbrunopradovieira/Android/Sdk/tools:/Users/walterbrunopradovieira/Android/Sdk/tools/bin:/Users/walterbrunopradovieira/Android/Sdk/platform-tools:/usr/local/opt/node@14/binzplugin.zsh
+  autoload -Uz _zplugin
+  (( ${+_comps} )) && _comps[zplugin]=_zplugin
+  
+  ## End of Zinits
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fbcript: Not found
+      at Request.params.callback [as _callback] (/Users/walterbrunopradovieira/.yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/Users/walterbrunopradovieira/.yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/walterbrunopradovieira/.yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/walterbrunopradovieira/.yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "deliveryBackendPrismaExpress",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
