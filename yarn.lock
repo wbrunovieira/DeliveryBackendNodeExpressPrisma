@@ -17,10 +17,10 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@prisma/client@^3.9.1":
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.9.1.tgz#565c8121f1220637bcab4a1d1f106b8c1334406c"
-  integrity sha512-aLwfXKLvL+loQ0IuPPCXkcq8cXBg1IeoHHa5lqQu3dJHdj45wnislA/Ny4UxRQjD5FXqrfAb8sWtF+jhdmjFTg==
+"@prisma/client@^3.9.2":
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.9.2.tgz#ad17dcfb702842573fe6ec3b7dc4615eff8d8fc6"
+  integrity sha512-VlEIYVMyfFZHbVBOlunPl47gmP/Z0zzPjPj8I7uKEIaABqrUy50ru3XS0aZd8GFvevVwt7p91xxkUjNjrWhKAQ==
   dependencies:
     "@prisma/engines-version" "3.9.0-58.bcc2ff906db47790ee902e7bbc76d7ffb1893009"
 
@@ -379,6 +379,11 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+
+express-async-errors@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/express-async-errors/-/express-async-errors-3.1.1.tgz#6053236d61d21ddef4892d6bd1d736889fc9da41"
+  integrity sha512-h6aK1da4tpqWSbyCa3FxB/V6Ehd4EEB15zyQq9qe75OZBp0krinNKuH4rAY+S/U/2I36vdLAUFSjQJ+TFmODng==
 
 express@^4.17.2:
   version "4.17.2"
@@ -843,10 +848,10 @@ picomatch@^2.0.4, picomatch@^2.2.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-prisma@^3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.9.1.tgz#7510a8bf06018a5313b9427b1127ce4750b1ce5c"
-  integrity sha512-IGcJAu5LzlFv+i+NNhOEh1J1xVVttsVdRBxmrMN7eIH+7mRN6L89Hz1npUAiz4jOpNlHC7n9QwaOYZGxTqlwQw==
+prisma@^3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.9.2.tgz#cc2da4e8db91231dea7465adf9db6e19f11032a9"
+  integrity sha512-i9eK6cexV74OgeWaH3+e6S07kvC9jEZTl6BqtBH398nlCU0tck7mE9dicY6YQd+euvMjjCtY89q4NgmaPnUsSg==
   dependencies:
     "@prisma/engines" "3.9.0-58.bcc2ff906db47790ee902e7bbc76d7ffb1893009"
 
