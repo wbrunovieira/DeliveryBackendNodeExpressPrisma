@@ -8,10 +8,19 @@ const app = express();
 app.use(express.json());
 
 const errorHandling = (err:Error, request:Request, response:Response, next:NextFunction) => {
-  response.status(500).json({
-    msg: err.message,
-    success: false,
-  });
+  if(err instanceof Error) {
+
+    response.status(400).json({
+      msg: err.message,
+      success: false,
+    });
+  }
+
+  return response.status(500).json({
+    status:"error",
+    message:"Internal server error"
+  })
+
 };
 
 app.use(routes);
