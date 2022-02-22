@@ -3,8 +3,8 @@ import 'express-async-errors';
 
 import { routes } from './routes';
 
-const app = express();
 
+const app = express();
 app.use(express.json());
 
 const errorHandling = (err:Error, request:Request, response:Response, next:NextFunction) => {
